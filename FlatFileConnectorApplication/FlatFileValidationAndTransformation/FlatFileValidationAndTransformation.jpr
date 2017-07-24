@@ -59,50 +59,7 @@
       <string v="oracle.toplink.workbench.addin/toplinkContentSet"/>
       <string v="oracle.tip.tools.ide.fabric.addin.SCAContentSetProvider/sca-content"/>
    </list>
-   <value n="defaultPackage" v=""/>
-   <hash n="oracle.ide.model.ResourcePaths">
-      <hash n="resourcesContentSet">
-         <list n="constituent-sets">
-            <hash>
-               <list n="pattern-filters">
-                  <string v="+*"/>
-               </list>
-               <list n="url-path">
-                  <url protocol="file" path="/app/connector_files/"/>
-               </list>
-            </hash>
-         </list>
-         <list n="pattern-filters">
-            <string v="+*"/>
-         </list>
-         <list n="url-path">
-            <url path="."/>
-         </list>
-      </hash>
-   </hash>
-   <hash n="oracle.ide.model.TechnologyScopeConfiguration">
-      <list n="technologyScope">
-         <string v="Java"/>
-         <string v="JavaBeans"/>
-         <string v="Ant"/>
-         <string v="Swing/AWT"/>
-         <string v="XML"/>
-      </list>
-   </hash>
-   <hash n="oracle.jdeveloper.ant.AntRunConfiguration">
-      <list n="propertyNames">
-         <string v="MAJOR"/>
-         <string v="MINOR"/>
-         <string v="ConnectorBundle-FrameworkVersion"/>
-         <string v="ConnectorBundle-Name"/>
-      </list>
-      <list n="propertyValues">
-         <string v="1"/>
-         <string v="0"/>
-         <string v="1.0"/>
-         <string v="org.identityconnectors.flatfile"/>
-      </list>
-   </hash>
+   <value n="defaultPackage" v="flatfilevalidationandtransformation"/>
    <hash n="oracle.jdeveloper.compiler.ant.AntConfiguration">
       <value n="makeTarget" v="all"/>
       <url n="projectBuildfile" path="build.xml"/>
@@ -128,8 +85,8 @@
       <value n="webIANAEncoding" v="ISO-8859-1"/>
    </hash>
    <hash n="oracle.jdeveloper.model.J2eeSettings">
-      <value n="j2eeWebAppName" v="FlatFileConnectorApplication-FlatFileConnectorProject-webapp"/>
-      <value n="j2eeWebContextRoot" v="FlatFileConnectorApplication-FlatFileConnectorProject-context-root"/>
+      <value n="j2eeWebAppName" v="FlatFileConnectorApplication-FlatFileValidationAndTransformation-webapp"/>
+      <value n="j2eeWebContextRoot" v="FlatFileConnectorApplication-FlatFileValidationAndTransformation-context-root"/>
    </hash>
    <hash n="oracle.jdeveloper.runner.RunConfigurations">
       <hash n="runConfigurationDefinitions">
@@ -140,67 +97,6 @@
       </hash>
       <list n="runConfigurationList">
          <string v="Default"/>
-      </list>
-   </hash>
-   <hash n="oracle.jdevimpl.config.JProjectLibraries">
-      <list n="exportedReferences">
-         <hash>
-            <value n="id" v="Connector-framework-internal.jar"/>
-            <value n="isJDK" v="false"/>
-         </hash>
-         <hash>
-            <value n="id" v="Connector-framework.jar"/>
-            <value n="isJDK" v="false"/>
-         </hash>
-         <hash>
-            <value n="id" v="Sshfactory.jar"/>
-            <value n="isJDK" v="false"/>
-         </hash>
-      </list>
-      <hash n="internalDefinitions">
-         <list n="libraryDefinitions">
-            <hash>
-               <list n="classPath">
-                  <url protocol="jar" path="file:/app/software/Connector_Server_111200/connector_server_java-1.4.0/lib/framework/connector-framework-internal.jar!/"/>
-               </list>
-               <value n="deployedByDefault" v="true"/>
-               <value n="description" v="Connector-framework-internal.jar"/>
-               <value n="id" v="Connector-framework-internal.jar"/>
-               <value n="locked" v="true"/>
-            </hash>
-            <hash>
-               <list n="classPath">
-                  <url protocol="jar" path="file:/app/software/Connector_Server_111200/connector_server_java-1.4.0/lib/framework/connector-framework.jar!/"/>
-               </list>
-               <value n="deployedByDefault" v="true"/>
-               <value n="description" v="Connector-framework.jar"/>
-               <value n="id" v="Connector-framework.jar"/>
-               <value n="locked" v="true"/>
-            </hash>
-            <hash>
-               <list n="classPath">
-                  <url protocol="jar" path="file:/app/software/Connector_Server_111200/connector_server_java-1.4.0/lib/sshfactory.jar!/"/>
-               </list>
-               <value n="deployedByDefault" v="true"/>
-               <value n="description" v="Sshfactory.jar"/>
-               <value n="id" v="Sshfactory.jar"/>
-               <value n="locked" v="true"/>
-            </hash>
-         </list>
-      </hash>
-      <list n="libraryReferences">
-         <hash>
-            <value n="id" v="Connector-framework-internal.jar"/>
-            <value n="isJDK" v="false"/>
-         </hash>
-         <hash>
-            <value n="id" v="Connector-framework.jar"/>
-            <value n="isJDK" v="false"/>
-         </hash>
-         <hash>
-            <value n="id" v="Sshfactory.jar"/>
-            <value n="isJDK" v="false"/>
-         </hash>
       </list>
    </hash>
    <hash n="oracle.jdevimpl.config.JProjectPaths">

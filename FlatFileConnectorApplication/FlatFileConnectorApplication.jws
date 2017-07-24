@@ -18,5 +18,6 @@
    <list n="listOfChildren">
       <hash><url n="URL" path="FlatFileConnectorProject/FlatFileConnectorProject.jpr"/></hash>
       <hash><url n="URL" path="FlatFileConnectorTestProject/FlatFileConnectorTestProject.jpr"/></hash>
+      <hash><url n="URL" path="FlatFileValidationAndTransformation/FlatFileValidationAndTransformation.jpr"/></hash>
    </list>
 </jws:workspace>
